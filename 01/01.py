@@ -2,7 +2,7 @@ import regex as re
 
 def read_file():
     data = []
-    with open("data.txt", "r") as d:
+    with open("01.txt", "r") as d:
         for line in d.readlines():
             data.append(line.strip())
     return data
